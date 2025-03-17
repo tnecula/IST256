@@ -1,1 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Game Store</title>
+  <!-- Importing Google Font for a more casual feel -->
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #fafafa;
+      font-family: 'Press Start 2P', cursive;
+      color: #333;
+    }
 
+    h1, h3 {
+      color: #ff5733; /* Fun orange color */
+      font-family: 'Press Start 2P', cursive;
+    }
+
+    .product-card {
+      background-color: #f5f5f5;
+      border-radius: 15px;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+      margin-bottom: 30px;
+      transition: transform 0.3s ease-in-out;
+    }
+
+    .product-card img {
+      width: 100%;
+      border-top-left-radius: 15px;
+      border-top-right-radius: 15px;
+    }
+
+    .product-card-body {
+      padding: 20px;
+    }
+
+    .product-card:hover {
+      transform: scale(1.05);
+    }
+
+    .form-container {
+      background-color: #f2f2f2;
+      padding: 25px;
+      border-radius: 15px;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+      border: 2px solid #ff5733;
+    }
+
+    .btn-primary {
+      background-color: #ff5733;
+      border-color: #ff5733;
+      padding: 10px 20px;
+      font-size: 16px;
+    }
+
+    .btn-primary:hover {
+      background-color: #e34a1f;
+      border-color: #e34a1f;
+    }
+
+    .form-control {
+      border-radius: 10px;
+      padding: 10px;
+    }
+
+    .form-check-label {
+      font-size: 14px;
+    }
+
+    .form-group label {
+      font-size: 16px;
+    }
+
+    .product-card-body h5 {
+      font-size: 1.3rem;
+      color: #555;
+      text-transform: uppercase;
+    }
+
+    .product-card-body p {
+      font-size: 0.9rem;
+      color: #777;
+    }
+
+    .container {
+      margin-top: 50px;
+    }
+
+    /* Custom background */
+    body {
+      background-image: url('https://via.placeholder.com/1500x1500/ffffff/000000?text=Game+Store+Background');
+      background-size: cover;
+      background-attachment: fixed;
+      background-position: center;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <!-- Title and Heading -->
+    <div class="row text-center">
+      <div class="col-12">
+        <h1>Welcome to My Game Store!</h1>
+        <p>Find your next gaming obsession right here.</p>
+      </div>
+    </div>
+
+    <!-- Product Section -->
+    <div class="row">
+      <!-- Product 1: Game 1 -->
+      <div class="col-md-6 col-lg-4">
+        <div class="product-card">
+          <img src="https://via.placeholder.com/350x200" alt="Game Image 1">
+          <div class="product-card-body">
